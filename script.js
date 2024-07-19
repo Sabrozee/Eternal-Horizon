@@ -15,5 +15,4 @@ function fetchAdvice() {
 
 generateBtn.addEventListener("click", fetchAdvice);
 
-// Initial advice fetch on page load
 fetchAdvice();
