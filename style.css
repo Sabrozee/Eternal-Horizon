@@ -1,0 +1,49 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(193, 38%, 86%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    width: 90%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advice-container {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid hsl(217, 19%, 38%);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.advice {
+    font-size: 28px;
+    font-weight: 800;
+    color: hsl(217, 19%, 24%);
+}
+
+.btn {
+    background-color: hsl(150, 100%, 66%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: hsl(150, 100%, 56%);
+}
